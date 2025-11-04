@@ -5,6 +5,10 @@ public class dataBaseConnection {
 
     private static dataBaseConnection instance=null;
 
+    String url;
+    String user;
+    int password;
+
     private dataBaseConnection() {}
 
     /* double check locking------------
